@@ -1,0 +1,94 @@
+/* Global Style  */
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Styles  */
+
+header {
+    width: 100%;
+    height: 100%;
+}
+.header-content {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content nav a {
+    margin-left: 1rem;
+}
+
+/* Aside Style  */
+
+.aside-content {
+    width:5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aside-content nav {
+    height: 20%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.aside-content nav a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Section Styles */
+/* .main-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+} */
+
+/* Main Summary Styles */
+/* .main-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: relative;;
+    ;
+} */
+
+/* Main Image Styles */
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    background: url(https://images.unsplash.com/photo-1505924005623-77e2df7f239a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=18893ffae239529ddccea663d86dd8fb&auto=format&fit=crop&w=1953&q=80) center center / cover no-repeat;
+}
